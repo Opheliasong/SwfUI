@@ -11,7 +11,12 @@ import SwiftUI
 struct SwfUIApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+//            ContentView()
+//            let menuView = try? MenuListedView(jsonName: "menu.json")
+//            if menuView == nil {
+//                SpecifyMenuListedView()
+//            }
+            MenuListedView(jsonName: "menu.json")
         }
     }
 }
