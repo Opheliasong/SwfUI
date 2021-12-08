@@ -9,6 +9,8 @@ import SwiftUI
 
 @main
 struct SwfUIApp: App {
+    @StateObject var order = Order()
+    
     var body: some Scene {
         WindowGroup {
 //            ContentView()
@@ -16,7 +18,8 @@ struct SwfUIApp: App {
 //            if menuView == nil {
 //                SpecifyMenuListedView()
 //            }
-            MenuListedView(jsonName: "menu.json")
+            MainView()
+                .environmentObject(order)
         }
     }
 }
