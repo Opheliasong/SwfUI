@@ -23,6 +23,7 @@
 		4628E18A275F0EE900ABEC71 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4628E187275F0EE900ABEC71 /* Helper.swift */; };
 		4628E18B275F0EE900ABEC71 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4628E188275F0EE900ABEC71 /* Menu.swift */; };
 		4628E18C275F0EE900ABEC71 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4628E189275F0EE900ABEC71 /* Order.swift */; };
+		464753BA2761C0FA005E5C51 /* ShapeStrokeAnimView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 464753B92761C0FA005E5C51 /* ShapeStrokeAnimView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +63,7 @@
 		4628E187275F0EE900ABEC71 /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
 		4628E188275F0EE900ABEC71 /* Menu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
 		4628E189275F0EE900ABEC71 /* Order.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		464753B92761C0FA005E5C51 /* ShapeStrokeAnimView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeStrokeAnimView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +118,7 @@
 				4628E185275F0EC600ABEC71 /* menu.json */,
 				4628E15B275F073200ABEC71 /* SwfUIApp.swift */,
 				4628E15D275F073200ABEC71 /* ContentView.swift */,
+				464753B92761C0FA005E5C51 /* ShapeStrokeAnimView.swift */,
 				4619D6AE275F59AD00FFF1C3 /* ItemDetail.swift */,
 				4619D6B0275F5FE300FFF1C3 /* OrderView.swift */,
 				4619D6B2275F61CE00FFF1C3 /* MainView.swift */,
@@ -302,6 +305,7 @@
 				4628E18C275F0EE900ABEC71 /* Order.swift in Sources */,
 				4619D5CC275F531100FFF1C3 /* ItemRow.swift in Sources */,
 				4628E18B275F0EE900ABEC71 /* Menu.swift in Sources */,
+				464753BA2761C0FA005E5C51 /* ShapeStrokeAnimView.swift in Sources */,
 				4628E18A275F0EE900ABEC71 /* Helper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

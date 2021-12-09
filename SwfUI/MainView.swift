@@ -18,6 +18,10 @@ struct MainView: View {
                 .tabItem {
                     Label("Order", systemImage: "square.and.pencil")
                 }
+            ShapeStrokeAnimView()
+                .tabItem {
+                    Label("Stroke Anim", systemImage: "sparkles")
+                }
         }
     }
 }
