@@ -41,6 +41,27 @@
 			remoteGlobalIDString = 4628E157275F073200ABEC71;
 			remoteInfo = SwfUI;
 		};
+		464753F727620AAC005E5C51 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 464753F127620AAC005E5C51 /* SwfUISprite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 464753C427620AA9005E5C51;
+			remoteInfo = SwfUISprite;
+		};
+		464753F927620AAC005E5C51 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 464753F127620AAC005E5C51 /* SwfUISprite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 464753D427620AAC005E5C51;
+			remoteInfo = SwfUISpriteTests;
+		};
+		464753FB27620AAC005E5C51 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 464753F127620AAC005E5C51 /* SwfUISprite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 464753DE27620AAC005E5C51;
+			remoteInfo = SwfUISpriteUITests;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -64,6 +85,7 @@
 		4628E188275F0EE900ABEC71 /* Menu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
 		4628E189275F0EE900ABEC71 /* Order.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
 		464753B92761C0FA005E5C51 /* ShapeStrokeAnimView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeStrokeAnimView.swift; sourceTree = "<group>"; };
+		464753F127620AAC005E5C51 /* SwfUISprite.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SwfUISprite.xcodeproj; path = ../SwfUISprite/SwfUISprite.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +116,7 @@
 		4628E14F275F073200ABEC71 = {
 			isa = PBXGroup;
 			children = (
+				464753F127620AAC005E5C51 /* SwfUISprite.xcodeproj */,
 				4628E15A275F073200ABEC71 /* SwfUI */,
 				4628E16B275F073400ABEC71 /* SwfUITests */,
 				4628E175275F073400ABEC71 /* SwfUIUITests */,
@@ -163,6 +186,16 @@
 				4628E189275F0EE900ABEC71 /* Order.swift */,
 			);
 			path = Support;
+			sourceTree = "<group>";
+		};
+		464753F227620AAC005E5C51 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				464753F827620AAC005E5C51 /* SwfUISprite.app */,
+				464753FA27620AAC005E5C51 /* SwfUISpriteTests.xctest */,
+				464753FC27620AAC005E5C51 /* SwfUISpriteUITests.xctest */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -255,6 +288,12 @@
 			mainGroup = 4628E14F275F073200ABEC71;
 			productRefGroup = 4628E159275F073200ABEC71 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 464753F227620AAC005E5C51 /* Products */;
+					ProjectRef = 464753F127620AAC005E5C51 /* SwfUISprite.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				4628E157275F073200ABEC71 /* SwfUI */,
@@ -263,6 +302,30 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		464753F827620AAC005E5C51 /* SwfUISprite.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = SwfUISprite.app;
+			remoteRef = 464753F727620AAC005E5C51 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		464753FA27620AAC005E5C51 /* SwfUISpriteTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = SwfUISpriteTests.xctest;
+			remoteRef = 464753F927620AAC005E5C51 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		464753FC27620AAC005E5C51 /* SwfUISpriteUITests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = SwfUISpriteUITests.xctest;
+			remoteRef = 464753FB27620AAC005E5C51 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		4628E156275F073200ABEC71 /* Resources */ = {
